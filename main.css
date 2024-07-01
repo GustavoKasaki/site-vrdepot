@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.container,
+section,
+.ft {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    padding: 16px 0;
+    background-color: black;
+    color: white;
+}
+
+header nav li {
+    display: inline-flex;
+    margin-left: 16px;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+header img {
+    padding: 32px 0;
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+header .nav-list {
+    margin: 0 86px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section h2 {
+    padding: 8px 0;
+    margin: 8px 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+section li {
+    font-size: 16px;
+    padding: 0 12px;
+    margin: 8px 32px;
+}
+
+section li a {
+    color:black;
+    text-decoration: none;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.welcome {
+    width: 400px;
+    text-align: justify;
+    margin: 0 16px;
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 16px;
+}
+
+.top10,
+.news {
+    display: block;
+    margin: 0 32px;
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 16px;
+}
+
+.top10 li {
+    width: 100%;
+}
+
+.vr-cat {
+    margin-bottom: 32px;
+}
+
+.vr-cat li {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.vr-cat img {
+    height: 300px;
+    border: solid;
+    margin: 0 16px;
+}
+
+.contact {
+    display: block;
+    flex-direction: column;
+}
+
+.form {
+    width: 300px;
+    font-size: 16px;
+    margin: 8px 8px;
+}
+
+.form input {
+    height: 32px;
+    width: 100%;
+    margin: 8px 0;
+}
+
+.form textarea {
+    height: 64px;
+    width: 100%;
+    resize: none;
+}
+
+.form button {
+    margin: 8px auto;
+    display: inline;
+    height: 32px;
+    width: 80px;
+}
+
+.ft {
+    margin: 0 auto;
+    padding: 32px 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p,
+.social {
+    margin: 0 64px;
+}
+
+footer h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.social li {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 8px;
+}
+
+.social img {
+    height: 32px;
+}
